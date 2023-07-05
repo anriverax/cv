@@ -1,0 +1,109 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Spanish} en {English} other {Unknown}}"
+  },
+  "NavBar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "timeline": "Timeline",
+    "contact": "Contact"
+  },
+  "Wrapper": {
+    "greeting": "Hi",
+    "Im": "I'm",
+    "contact": "Contact"
+  },
+  "About": {
+    "pdf": "Download my curriculum vitae",
+    "title": "About",
+    "one": "My name is Anibal Rivera. I am a Systems Engineer with",
+    "two": "years of experience as a Full Stack Developer with rock-solid experience in building web applications. I've worked in various areas as a front-end developer, back-end developer, database, and cloud services. I possess the unique ability to tackle intricate technical challenges while crafting websites that exude sleekness and visual allure.",
+    "three": "I am very passionate and dedicated to my work, which makes me organized and get things done in the shortest amount of time requested.",
+    "four": "When I'm not programming, I'm usually playing video games, watching movies or series with my wife, or practicing martial arts.",
+    "five": "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience, don't hesitate to contact me.",
+    "six": "My main quality is being self-taught. In my dictionary there are no negative words like: I don't know and I can't. If at the moment I do not have the necessary knowledge, I reinforce them to achieve the desired objectives."
+  },
+  "Skill": {
+    "title": "Skills",
+    "description": "What I can do?",
+    "frontend": "Create client-side applications with modern features, applying good programming practices and SEO optimization. Making use of modern technologies such as React (NextJS) and TailwindCSS.",
+    "backend": "Build scalable and maintainable server applications using cutting-edge technologies such as Nodejs (Nest.js), Docker, and MongoDB, or PostgreSQL."
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "description": "Some Of My Projects",
+    "project": {
+      "wedding": {
+        "title": "Wedding - Gabriela y Anibal",
+        "description": "Page to RSVP to the wedding and show a little history of the couple."
+      }
+    }
+  },
+  "Timeline": {
+    "education": {
+      "one": {
+        "title": "Computer Systems Engineering",
+        "place": "Catholic University of El Salvador"
+      },
+      "two": {
+        "title": "Accounting Technique",
+        "place": "Walter T. Deninger National Institute"
+      },
+      "three": {
+        "title": "Elementary school and middle school",
+        "place": "Presbitero Marino Braspenning college"
+      }
+    },
+    "work": {
+      "one": {
+        "title": "Full Stack Developer",
+        "place": "Focus Services – ITO",
+        "description": {
+          "one": "Creating a B2B admin application using Nextjs, TypeScript, TailwindCSS and NodeJS",
+          "two": "Creating an API to serve data with NodeJS",
+          "three": "Support and refactoring of other applications' code and creation of new functions with ReactJS, TypeScript and Sass"
+        },
+        "years": "Aug 2021 - Jun 2023"
+      },
+      "two": {
+        "title": "Programmer Analyst",
+        "place": "Francisco Gavidia University",
+        "description": {
+          "one": "Creating an administrative application for a yearbook using Jquery, Bootstrap and C# with .NetCore",
+          "two": "Develop and maintain a mobile application for academic registration using the IONIC framework",
+          "three": "Provide support to the different areas of the Academic Registry of the Francisco Gavidia University in their different types of procedures and processes.",
+          "four": "Refactoring the code of other applications and building new functionality using Jquery and C# with asp.net"
+        },
+        "years": "Jul 2015 - Apr 2021"
+      },
+      "three": {
+        "title": "Collaborator of the Information and Communication Technologies (ICT) Advisor – Internships",
+        "place": "Catholic University of El Salvador – Ilobasco Regional Center – CDMYPE",
+        "description": {
+          "one": "Provide advice and support to micro and small businesses on information technologies that can be implemented in business.",
+          "two": "Develop and maintain a car rental website using Jquery, Bootstrap and Php with Laravel"
+        },
+        "years": "Mar 2014 - Aug 2014"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "description": "Get in touch",
+    "talkToMe": "Talk to me",
+    "form": {
+      "title": "Write me your project",
+      "fullName": "fullName",
+      "subject": "Subject",
+      "email": "Email",
+      "project": "Your Project",
+      "btn": "Submit"
+    }
+  }
+}

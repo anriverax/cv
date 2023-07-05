@@ -1,0 +1,109 @@
+{
+  "Index": {
+    "title": "HOLA world!"
+  },
+  "LocaleSwitcher": {
+    "label": "Change idioma",
+    "locale": "{locale, select, es {Spanish} en {English} other {Unknown}}"
+  },
+  "NavBar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Capacidades",
+    "portfolio": "Portafolio",
+    "timeline": "Línea de tiempo",
+    "contact": "Contacta me"
+  },
+  "Wrapper": {
+    "greeting": "Hola",
+    "Im": "Soy",
+    "contact": "Contacta me"
+  },
+  "About": {
+    "pdf": "Descarga mi curriculum vitae",
+    "title": "Sobre mí",
+    "one": "Mi nombre es Anibal Rivera. Soy Ingeniero de Sistemas con",
+    "two": "años de experiencia como Desarrollador Full Stack con sólida experiencia en la creación de aplicaciones web. He trabajado en varias áreas como desarrollador front-end, desarrollador back-end, base de datos y servicios en la nube. Poseo la habilidad única de abordar complejos desafíos técnicos mientras creo sitios web que exudan elegancia y atractivo visual.",
+    "three": "Soy muy apasionado y dedicado a mi trabajo, lo que hace que me organice y haga las cosas en el menor tiempo solicitado.",
+    "four": "Cuando no estoy programando, suelo jugar videojuegos, ver películas o series con mi esposa, o practicar artes marciales.",
+    "five": "Estoy abierto a oportunidades de trabajo donde pueda contribuir, aprender y crecer. Si tienes una buena oportunidad que coincida con mis habilidades y experiencia, no dudes en contactarme.",
+    "six": "Mi principal cualidad es ser autodidacta. En mi diccionario no hay palabras negativas como: no sé y no puedo. Si en el momento no tengo los conocimientos necesarios, los reforzo para conseguir los objetivos deseados."
+  },
+  "Skill": {
+    "title": "Capacidades",
+    "description": "¿Qué puedo hacer?",
+    "frontend": "Crear aplicaciones del lado del cliente con funcionalidades modernas, aplicando las buenas practicas de programacion y la optimización de SEO. Haciendo uso de tecnologías modernas como React (NextJS) y TailwindCSS.",
+    "backend": "Crear aplicaciones de servidor escalables y mantenibles utilizando tecnologías de vanguardia como Nodejs (Nest.js), Docker y MongoDB, o PostgreSQL."
+  },
+  "Portfolio": {
+    "title": "Portafolio",
+    "description": "Algunos de mis proyectos",
+    "project": {
+      "wedding": {
+        "title": "Boda - Gabriela y Anibal",
+        "description": "Página para confirmar su asistencia a la boda y mostrar un poco de historia de la pareja."
+      }
+    }
+  },
+  "Timeline": {
+    "education": {
+      "one": {
+        "title": "Ingeniería de Sistemas Informáticos",
+        "place": "Universidad Católica de El Salvador"
+      },
+      "two": {
+        "title": "Técnica Contable",
+        "place": "Instituto Nacional Walter T. Deninger"
+      },
+      "three": {
+        "title": "Escuela primaria y secundaria",
+        "place": "Colegio Presbitero Marino Braspenning"
+      }
+    },
+    "work": {
+      "one": {
+        "title": "Full Stack Developer",
+        "place": "Focus Services – ITO",
+        "description": {
+          "one": "Creación de una aplicación administrativa B2B usando Nextjs, TypeScript, TailwindCSS y NodeJS",
+          "two": "Creación de una API para servir datos con NodeJS",
+          "three": "Soporte y refactorización del código de otras aplicaciones y creación de nuevas funciones con ReactJS, TypeScript y Sass"
+        },
+        "years": "Ago 2021 - Jun 2023"
+      },
+      "two": {
+        "title": "Programador Analista",
+        "place": "Universidad Francisco Gavidia",
+        "description": {
+          "one": "Creacion de una aplicación administrativa para un anuario usando Jquery, Bootstrap y C# con .NetCore",
+          "two": "Desarrollar y mantener una aplicación móvil para registro academico utilizando el marco IONIC",
+          "three": "Brindar apoyo a las diferentes áreas del Registro Académico de la Universidad Francisco Gavidia en sus diferentes tipos de trámites y procesos.",
+          "four": "Refactorización del código de otras aplicaciones y construcción de nuevas funcionalidades usando Jquery y C# con asp.net"
+        },
+        "years": "Jul 2015 - Abr 2021"
+      },
+      "three": {
+        "title": "Colaborador del Asesor de Tecnologías de la Información y la Comunicación (TIC) – Prácticas",
+        "place": "Universidad Católica de El Salvador – Centro Regional Ilobasco – CDMYPE",
+        "description": {
+          "one": "Brindar asesoramiento y apoyo a las micro y pequeñas empresas sobre las tecnologías de la información que se pueden implementar en los negocios.",
+          "two": "Desarrolle y mantenga un sitio web de alquiler de autos usando Jquery, Bootstrap y Php con Laravel"
+        },
+        "years": "Mar 2014 - Ago 2014"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contacta me",
+    "description": "Ponte en contacto",
+    "talkToMe": "Háblame",
+    "form": {
+      "title": "Escríbeme tu proyecto",
+      "fullName": "Nombre completo",
+      "subject": "Asunto",
+      "email": "Correo electrónico",
+      "project": "Tu Proyecto",
+      "btn": "Enviar"
+    }
+  }
+}

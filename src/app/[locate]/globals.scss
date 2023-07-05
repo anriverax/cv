@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #999 #fff;
+  &:-webkit-scrollbar-track {
+    background: #fff;
+  }
+  &::-webkit-scrollbar {
+    width: 11px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 6px;
+    border: 3px solid #fff;
+  }
+}
+
+textarea {
+  resize: none;
+  &:-webkit-scrollbar-track {
+    background: #fff;
+  }
+  &::-webkit-scrollbar {
+    width: 11px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 6px;
+    border: 3px solid #fff;
+  }
+}
+
+.is-active {
+  font-weight: bold;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.25rem;
+    left: 0;
+    top: 1.75rem;
+    background-color: #fed813;
+  }
+}
+.title {
+  &::after {
+    background-color: #ee7439;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    z-index: -1;
+    opacity: 0.5;
+  }
+}
+
+blockquote p {
+  font-style: italic;
+  &::first-letter {
+    font-size: 24px;
+  }
+}
+
+blockquote p::before,
+blockquote p::after {
+  content: "“";
+  font-family: Georgia;
+  font-size: 4rem;
+  margin: -2rem 0 0 -2rem;
+  position: absolute;
+  opacity: 0.5;
+}
+
+blockquote p::after {
+  content: "”";
+  margin: -1rem -4rem 0 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styles/Page.module.css */
+
+.page {
+  margin: auto; /* centers element within parent container */
+  background: white; /* ofcourse we want our pdf background to be white */
+  position: relative; /* for child elements that need absolute positioning */
+
+  /* below is the width/height for an A4 sized sheet. For other standards lookup
+     the dimensios and apply those. */
+  width: 216mm;
+  height: 279mm;
+
+  padding: 2.5rem 5rem;
+  /* optional: Add drop shadow for floating paper effect. */
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+@page {
+  size: letter;
+  margin: 0;
+}
+
+.animationWidth {
+  animation: 3s ease-in-out 250ms frameWidth;
+}
+
+@keyframes frameWidth {
+  0% {
+    width: 0%;
+  }
+}
