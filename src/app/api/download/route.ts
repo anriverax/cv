@@ -1,5 +1,6 @@
 import { launch } from "puppeteer";
 
+// export const runtime = "edge";
 export async function GET() {
   try {
     const browser = await launch({
