@@ -116,21 +116,16 @@ swiper-slide {
 .page {
   margin: auto; /* centers element within parent container */
   background: white; /* ofcourse we want our pdf background to be white */
-  position: relative; /* for child elements that need absolute positioning */
-
+  /*    for child elements that need absolute positioning */
+  position: relative;
   /* below is the width/height for an A4 sized sheet. For other standards lookup
-     the dimensios and apply those. */
+     the dimensios and apply those.*/
   width: 216mm;
   height: 279mm;
-
+  color: black;
   padding: 2.5rem 5rem;
   /* optional: Add drop shadow for floating paper effect. */
   filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-}
-
-@page {
-  size: letter;
-  margin: 0;
 }
 
 .animationWidth {

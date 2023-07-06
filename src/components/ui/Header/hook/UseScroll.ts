@@ -44,22 +44,24 @@ const useScroll = (
       const documentSectionId = document.getElementById(sectionId);
       const element = document.querySelector<HTMLElement>(`a[href='#${sectionId}']`) as HTMLElement;
 
-      element.classList.remove("is-active");
+      if (element) {
+        element.classList.remove("is-active");
 
-      if (!documentSectionId) {
-        console.warn(`There is no element with id ${sectionId} present in the DOM`);
-        return;
-      }
+        if (!documentSectionId) {
+          console.warn(`There is no element with id ${sectionId} present in the DOM`);
+          return;
+        }
 
-      // ? returns the height of the header
-      const scrollHeight: number = navigationElement.current?.scrollHeight as number;
-      const scrollSectionOffsetTop: number = documentSectionId.offsetTop - scrollHeight;
-      const pageOffSet: number = window.pageYOffset - pageYOffset;
-      const scrollOffsetTopHeight: number = scrollSectionOffsetTop + documentSectionId.scrollHeight;
+        // ? returns the height of the header
+        const scrollHeight: number = navigationElement.current?.scrollHeight as number;
+        const scrollSectionOffsetTop: number = documentSectionId.offsetTop - scrollHeight;
+        const pageOffSet: number = window.pageYOffset - pageYOffset;
+        const scrollOffsetTopHeight: number = scrollSectionOffsetTop + documentSectionId.scrollHeight;
 
-      if (window.scrollY < scrollOffsetTopHeight) {
-        if (pageOffSet >= scrollSectionOffsetTop) {
-          element.classList.add("is-active");
+        if (window.scrollY < scrollOffsetTopHeight) {
+          if (pageOffSet >= scrollSectionOffsetTop) {
+            element.classList.add("is-active");
+          }
         }
       }
     });

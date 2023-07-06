@@ -58,7 +58,7 @@ export function Timelie(): React.ReactElement {
   };
 
   return (
-    <Section sectionId="timeline" title="Timeline">
+    <Section sectionId="timeline" title={t("title")}>
       <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:mx-7">
         <TimelineItem
           title="Education"

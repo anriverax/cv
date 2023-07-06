@@ -20,14 +20,17 @@
     "contact": "Contacta me"
   },
   "About": {
-    "pdf": "Descarga mi curriculum vitae",
+    "pdf": "Ver mi currículum",
     "title": "Sobre mí",
+    "zero": "Soy Ingeniero de Sistemas con",
     "one": "Mi nombre es Anibal Rivera. Soy Ingeniero de Sistemas con",
     "two": "años de experiencia como Desarrollador Full Stack con sólida experiencia en la creación de aplicaciones web. He trabajado en varias áreas como desarrollador front-end, desarrollador back-end, base de datos y servicios en la nube. Poseo la habilidad única de abordar complejos desafíos técnicos mientras creo sitios web que exudan elegancia y atractivo visual.",
     "three": "Soy muy apasionado y dedicado a mi trabajo, lo que hace que me organice y haga las cosas en el menor tiempo solicitado.",
     "four": "Cuando no estoy programando, suelo jugar videojuegos, ver películas o series con mi esposa, o practicar artes marciales.",
     "five": "Estoy abierto a oportunidades de trabajo donde pueda contribuir, aprender y crecer. Si tienes una buena oportunidad que coincida con mis habilidades y experiencia, no dudes en contactarme.",
-    "six": "Mi principal cualidad es ser autodidacta. En mi diccionario no hay palabras negativas como: no sé y no puedo. Si en el momento no tengo los conocimientos necesarios, los reforzo para conseguir los objetivos deseados."
+    "six": "Mi principal cualidad es ser autodidacta. En mi diccionario no hay palabras negativas como: no sé y no puedo. Si en el momento no tengo los conocimientos necesarios, los reforzo para conseguir los objetivos deseados.",
+    "language": "Idiomas",
+    "spanish": "Español (Nativo), Inglés (nivel A2)"
   },
   "Skill": {
     "title": "Capacidades",
@@ -46,6 +49,9 @@
     }
   },
   "Timeline": {
+    "title": "Línea de tiempo",
+    "title2": "Experiencia",
+    "title3": "Educación",
     "education": {
       "one": {
         "title": "Ingeniería de Sistemas Informáticos",
@@ -105,5 +111,9 @@
       "project": "Tu Proyecto",
       "btn": "Enviar"
     }
+  },
+  "Cv": {
+    "home": "Inicio",
+    "print": "Imprimir"
   }
 }

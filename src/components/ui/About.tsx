@@ -2,42 +2,13 @@
 
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import axios from "axios";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import Section from "../Section";
-
 export function About(): React.ReactElement {
   const t = useTranslations("About");
+  const pathname = usePathname();
 
-  async function axiosDownloadFile() {
-    try {
-      const response = await axios({
-        url: "/api/download",
-        method: "GET",
-        responseType: "blob",
-        headers: {
-          "Cache-Control": "no-cache",
-          Pragma: "no-cache",
-          Expires: "0"
-        }
-      });
-
-      // eslint-disable-next-line  @typescript-eslint/no-unsafe-argument
-      const href = window.URL.createObjectURL(response.data);
-
-      const anchorElement = document.createElement("a");
-
-      anchorElement.href = href;
-      anchorElement.download = "generated_pdf.pdf";
-
-      document.body.appendChild(anchorElement);
-      anchorElement.click();
-
-      document.body.removeChild(anchorElement);
-      window.URL.revokeObjectURL(href);
-    } catch (error) {
-      console.log("error: ", error);
-    }
-  }
   return (
     <Section sectionId="about" title={t("title")}>
       <div>
@@ -56,13 +27,14 @@ export function About(): React.ReactElement {
           {/* data-aos="fade-up"*/}
           <div className="flex items-center mx-7 lg:mx-auto lg:mr-16">
             <div>
-              <div
+              <Link
+                href={pathname === "/" ? "/cv" : `${pathname}/cv`}
                 className="flex space-x-3 font-bold underline cursor-pointer"
-                onClick={axiosDownloadFile}
               >
                 <Image src="/img/pdf.png" alt="download" className="w-6 h-6" height={24} width={24} />
                 <span>{t("pdf")}</span>
-              </div>
+              </Link>
+
               <br />
               <p>
                 {t("one")} {new Date().getFullYear() - 2014} {t("two")}

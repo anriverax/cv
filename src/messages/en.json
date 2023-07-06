@@ -20,14 +20,17 @@
     "contact": "Contact"
   },
   "About": {
-    "pdf": "Download my curriculum vitae",
+    "pdf": "View my resume",
     "title": "About",
+    "zero": "I am a Systems Engineer with",
     "one": "My name is Anibal Rivera. I am a Systems Engineer with",
     "two": "years of experience as a Full Stack Developer with rock-solid experience in building web applications. I've worked in various areas as a front-end developer, back-end developer, database, and cloud services. I possess the unique ability to tackle intricate technical challenges while crafting websites that exude sleekness and visual allure.",
     "three": "I am very passionate and dedicated to my work, which makes me organized and get things done in the shortest amount of time requested.",
     "four": "When I'm not programming, I'm usually playing video games, watching movies or series with my wife, or practicing martial arts.",
     "five": "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience, don't hesitate to contact me.",
-    "six": "My main quality is being self-taught. In my dictionary there are no negative words like: I don't know and I can't. If at the moment I do not have the necessary knowledge, I reinforce them to achieve the desired objectives."
+    "six": "My main quality is being self-taught. In my dictionary there are no negative words like: I don't know and I can't. If at the moment I do not have the necessary knowledge, I reinforce them to achieve the desired objectives.",
+    "language": "Languages",
+    "spanish": "Spanish (Native), English (A2 level)"
   },
   "Skill": {
     "title": "Skills",
@@ -46,6 +49,9 @@
     }
   },
   "Timeline": {
+    "title": "Timeline",
+    "title2": "Experiencie",
+    "title3": "Education",
     "education": {
       "one": {
         "title": "Computer Systems Engineering",
@@ -105,5 +111,9 @@
       "project": "Your Project",
       "btn": "Submit"
     }
+  },
+  "Cv": {
+    "home": "Home",
+    "print": "Print"
   }
 }

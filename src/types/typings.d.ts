@@ -145,3 +145,5 @@ declare namespace JSX {
     "aria-label": any;
   }
 }
+
+declare module "react-html2pdf";
