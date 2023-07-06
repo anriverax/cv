@@ -2,6 +2,7 @@ import "./globals.scss";
 import "aos/dist/aos.css";
 import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,6 +57,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
             {children}
           </NextIntlClientProvider>
         )}
+        <Analytics />
       </body>
     </html>
   );
