@@ -10,6 +10,7 @@ const formData: ContactForm = {
 
 const validation = object({
   fullName: string().required("The fullName is require"),
+  subject: string().required("The subject is require"),
   email: string()
     .email("This string must be a valid email")
     .matches(
@@ -27,7 +28,6 @@ export const useFecthData = () => {
     validateOnBlur: true,
     validateOnChange: true,
     onSubmit: async (data: ContactForm) => {
-      console.log(data);
       const result = await fetch("/api/contact", { body: JSON.stringify(data), method: "POST" });
       console.log(result);
     }
