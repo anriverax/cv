@@ -12,12 +12,12 @@
     "skills": "Capacidades",
     "portfolio": "Portafolio",
     "timeline": "Línea de tiempo",
-    "contact": "Contacta me"
+    "contact": "Contáctame"
   },
   "Wrapper": {
     "greeting": "Hola",
     "Im": "Soy",
-    "contact": "Contacta me"
+    "contact": "Contáctame"
   },
   "About": {
     "pdf": "Ver mi currículum",
@@ -100,7 +100,7 @@
     }
   },
   "Contact": {
-    "title": "Contacta me",
+    "title": "Contáctame",
     "description": "Ponte en contacto",
     "talkToMe": "Háblame",
     "form": {

@@ -13,8 +13,7 @@ export function About(): React.ReactElement {
     <Section sectionId="about" title={t("title")}>
       <div>
         <div className="grid sm:h-[calc(100%_-_192px)] lg:grid-cols-2 lg:gap-16">
-          {/* data-aos="fade-up"*/}
-          <div className="relative flex justify-center mb-10 md:items-center">
+          <div className="relative flex justify-center mb-10 md:items-center" data-aos="fade-up">
             <Image
               src="/img/preview4.png"
               alt="profile"
@@ -24,8 +23,8 @@ export function About(): React.ReactElement {
             />
             <span className="hidden absolute rounded-full border border-dashed border-t-transparent border-b-transparent border-l-[#20396f] border-r-[#20396f] h-[320px] sm:flex sm:w-[360px] sm:rotate-45 md:items-center"></span>
           </div>
-          {/* data-aos="fade-up"*/}
-          <div className="flex items-center mx-7 lg:mx-auto lg:mr-16">
+
+          <div className="flex items-center mx-7 lg:mx-auto" data-aos="fade-up">
             <div>
               <Link
                 href={pathname === "/" ? "/cv" : `${pathname}/cv`}

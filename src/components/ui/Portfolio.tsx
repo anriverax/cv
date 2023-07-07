@@ -23,8 +23,6 @@ const Portfolio = (): React.ReactElement => {
           padding-bottom: 75px;
           overflow-y: hidden;
           display:block;
-
-
         }
 
         .swiper-button-next,

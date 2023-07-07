@@ -6,13 +6,12 @@ const Skill = (): React.ReactElement => {
   const t = useTranslations("Skill");
 
   return (
-    <section className="py-20 mx-auto max-w-7xl" id="skills">
-      {/*data-aos="zoom-in-up"*/}
-      <div className="flex justify-center mb-16">
+    <section className="py-20 mx-auto max-w-7xl lg:max-w-4xl xl:max-w-6xl  2xl:max-w-7xl" id="skills">
+      <div className="flex justify-center mb-16" data-aos="zoom-in-up">
         <h2 className="font-bold text-5xl relative title">{t("title")}</h2>
       </div>
-      {/* data-aos="zoom-in-up" */}
-      <div className="grid mx-7 md:gap-16 lg:grid-cols-2 ">
+
+      <div className="grid mx-7 md:gap-16 lg:grid-cols-2" data-aos="zoom-in-up">
         <SkillContent
           svgId="brackets-curly"
           title="Frontend Developer"
@@ -42,11 +41,10 @@ const Skill = (): React.ReactElement => {
         />
       </div>
       <div className="mt-16 flex justify-center mb-16 md:mt-32">
-        <h2 className="font-bold text-4xl relative title md:text-5xl">{t("description")}</h2>
+        <h2 className="font-bold text-4xl text-center relative md:text-5xl">{t("description")}</h2>
       </div>
       <div className="grid gap-16 md:grid-cols-2">
-        {/** data-aos="fade-right" */}
-        <div className="mx-14 space-y-10">
+        <div className="mx-14 space-y-10" data-aos="fade-right">
           <div className="flex justify-center">
             <h3 className="text-2xl">Frontend APP</h3>
           </div>
@@ -54,8 +52,8 @@ const Skill = (): React.ReactElement => {
             <p>{t("frontend")}</p>
           </blockquote>
         </div>
-        {/** data-aos="fade-left" */}
-        <div className="mx-14 space-y-10">
+
+        <div className="mx-14 space-y-10" data-aos="fade-left">
           <div className="flex justify-center">
             <h3 className="text-2xl">Backend API REST</h3>
           </div>

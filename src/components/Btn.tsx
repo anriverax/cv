@@ -19,6 +19,7 @@ const Btn = () => {
 
     return () => window.removeEventListener("scroll", handleMoveScroll);
   }, [scroll]);
+
   return (
     <p
       className={cx(

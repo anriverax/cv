@@ -18,8 +18,8 @@ export function TimelineItem({ data, title, d, svgId }: TimelineItemProps): Reac
         "order-1 md:order-2": title === "Work",
         "order-2 md:order-1": title === "Education"
       })}
+      data-aos="fade-up"
     >
-      {/* data-aos="fade-up" arriba */}
       <SubTitle svgId={svgId} title={title} d={d} />
       <ul>
         {data.map((item: TimelineItem, index: number) => (

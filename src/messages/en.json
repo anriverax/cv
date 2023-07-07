@@ -43,7 +43,7 @@
     "description": "Some Of My Projects",
     "project": {
       "wedding": {
-        "title": "Wedding - Gabriela y Anibal",
+        "title": "Wedding - Gabriela and Anibal",
         "description": "Page to RSVP to the wedding and show a little history of the couple."
       }
     }
@@ -105,7 +105,7 @@
     "talkToMe": "Talk to me",
     "form": {
       "title": "Write me your project",
-      "fullName": "fullName",
+      "fullName": "FullName",
       "subject": "Subject",
       "email": "Email",
       "project": "Your Project",

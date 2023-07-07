@@ -33,7 +33,7 @@ export default function LocaleSwitcher() {
         width={64}
         height={64}
         alt="elSalvador"
-        className="w-4 h-4 cursor-pointer"
+        className="w-4 h-3 cursor-pointer"
         onClick={() => onSelectChange("es")}
       />
     </li>

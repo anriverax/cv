@@ -11,8 +11,7 @@ const Form = (): React.ReactElement => {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   const { handleSubmit, handleChange, handleBlur, touched, values, errors, isSubmitting } =
     useFecthData();
-  console.log("isSubmitting");
-  console.log(isSubmitting);
+
   const { fullName, subject, email, project } = values;
   const t = useTranslations("Contact");
 
