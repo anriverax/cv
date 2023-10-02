@@ -9,29 +9,30 @@ export function Experiencie() {
       {
         title: t("work.one.title"),
         place: t("work.one.place"),
-        description: [
-          t("work.one.description.one"),
-          t("work.one.description.two"),
-          t("work.one.description.three")
-        ],
+        description: [t("work.one.description.one")],
         years: t("work.one.years")
       },
       {
         title: t("work.two.title"),
         place: t("work.two.place"),
-        description: [
-          t("work.two.description.one"),
-          t("work.two.description.two"),
-          t("work.two.description.three"),
-          t("work.two.description.four")
-        ],
+        description: [t("work.two.description.one"), t("work.two.description.two")],
         years: t("work.two.years")
       },
       {
         title: t("work.three.title"),
         place: t("work.three.place"),
-        description: [t("work.three.description.one"), t("work.three.description.two")],
+        description: [
+          t("work.three.description.one"),
+          t("work.three.description.two"),
+          t("work.three.description.three")
+        ],
         years: t("work.three.years")
+      },
+      {
+        title: t("work.four.title"),
+        place: t("work.four.place"),
+        description: [t("work.four.description.one"), t("work.four.description.two")],
+        years: t("work.four.years")
       }
     ]
   };
@@ -48,7 +49,7 @@ export function Experiencie() {
           <li key={index} className="text-xs">
             <h4 className="font-bold">{item.title}</h4>
             <span>{item.years}</span>
-            <p className=" italic">Focus Services – ITO</p>
+            <p className=" italic">{item.place}</p>
             <ul className="ml-10 list-disc">
               {item.description.map((element: string, i: number) => (
                 <li key={i}>{element}</li>

@@ -68,32 +68,38 @@
     },
     "work": {
       "one": {
+        "title": "Frontend Developer (React)",
+        "place": "CityLab",
+        "description": {
+          "one": "Creación de un sistema administrativo para ANDA (Administración Nacional de Acueductos y Alcantarillados ANDA)"
+        },
+        "years": "Jul 2023 - Sep 2023"
+      },
+      "two": {
         "title": "Full Stack Developer",
         "place": "Focus Services – ITO",
         "description": {
-          "one": "Creación de una aplicación administrativa B2B usando Nextjs, TypeScript, TailwindCSS y NodeJS",
-          "two": "Creación de una API para servir datos con NodeJS",
-          "three": "Soporte y refactorización del código de otras aplicaciones y creación de nuevas funciones con ReactJS, TypeScript y Sass"
+          "one": "Creación y refactorización de una aplicación administrativa B2B usando Nextjs, TypeScript, TailwindCSS y NodeJS",
+          "two": "Creación de una API para servir datos con NodeJS"
         },
         "years": "Ago 2021 - Jun 2023"
       },
-      "two": {
+      "three": {
         "title": "Programador Analista",
         "place": "Universidad Francisco Gavidia",
         "description": {
-          "one": "Creacion de una aplicación administrativa para un anuario usando Jquery, Bootstrap y C# con .NetCore",
-          "two": "Desarrollar y mantener una aplicación móvil para registro academico utilizando el marco IONIC",
-          "three": "Brindar apoyo a las diferentes áreas del Registro Académico de la Universidad Francisco Gavidia en sus diferentes tipos de trámites y procesos.",
-          "four": "Refactorización del código de otras aplicaciones y construcción de nuevas funcionalidades usando Jquery y C# con asp.net"
+          "one": "Creación de una aplicación administrativa para un anuario usando Jquery, Bootstrap y C# con .NetCore",
+          "two": "Desarrollar y refactorizar una aplicación móvil para registro academico utilizando el marco IONIC",
+          "three": "Brindar apoyo a las diferentes áreas del Registro Académico de la Universidad Francisco Gavidia en sus diferentes tipos de trámites y procesos."
         },
         "years": "Jul 2015 - Abr 2021"
       },
-      "three": {
+      "four": {
         "title": "Colaborador del Asesor de Tecnologías de la Información y la Comunicación (TIC) – Prácticas",
         "place": "Universidad Católica de El Salvador – Centro Regional Ilobasco – CDMYPE",
         "description": {
-          "one": "Brindar asesoramiento y apoyo a las micro y pequeñas empresas sobre las tecnologías de la información que se pueden implementar en los negocios.",
-          "two": "Desarrolle y mantenga un sitio web de alquiler de autos usando Jquery, Bootstrap y Php con Laravel"
+          "one": "Brindar asesoría a las micro y pequeñas empresas sobre las TIC que se pueden implementar en los negocios.",
+          "two": "Creación de un sitio web para alquiler de autos usando Jquery, Bootstrap y Php con Laravel"
         },
         "years": "Mar 2014 - Ago 2014"
       }
